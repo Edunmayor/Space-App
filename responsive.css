@@ -1,0 +1,161 @@
+@media (max-width: 1584px) {
+    .home h1{
+        font-size: 80px;
+    }
+    .home h3{
+        font-size: 25px;
+    }
+    .home p{
+        font-size: 20px;
+        padding-right: 40px;
+    }
+    
+}
+@media (max-width: 924px) {
+    .home {
+        background: url(/assets/home/background-home-mobile.jpg);
+        background-position: center;
+        background-size: cover;
+        flex-direction: column;
+        margin-top: 50px;
+
+    }
+    .home h3{
+        text-align: center;
+    }
+    .home h1{
+        text-align: center;
+    }
+    .home p{
+        text-align: center;
+    }
+    .bordered-word{
+        text-align: center;
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+    
+}
+@media (max-width: 800px) {
+    #menu-icons{
+        display: block;
+    }
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        background: #1f242d;
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+        display: none;
+    }
+    .active{
+        display: block;
+    }
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+    
+}
+
+
+
+
+/* DESTINATION BREAKOUTS */
+@media (max-width: 784px) {
+    .content{
+        flex-direction: column;
+    
+    }
+    body{
+        background: url(/assets/destination/background-destination-mobile.jpg);
+        background-size: cover;
+    }
+}
+
+@media (max-width: 425px) {
+    .destination h3{
+        font-size: 2rem ;
+    }
+}
+
+@media (max-width: 388px) {
+    .destination a{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 313px) {
+    .destination a{
+        font-size: 1rem;
+    }
+    .destination h3{
+        font-size: 1.5rem ;
+    }
+    .content img{
+        width: 200px;
+    }
+}
+
+@media (max-width: 246px) {
+    .destination a{
+        font-size: 0.7rem;
+    }
+    .destination h3{
+        font-size: 1rem ;
+    }
+}
+
+
+
+/* CREW BREAKOUTS */
+
+@media (max-width: 1281px) {
+    .text h2{
+        font-size: 1.6rem;
+    }
+
+    .text h1{
+        font-size: 2.5rem;
+    }
+
+    .text p{
+        font-size: 2rem;
+        padding-right: 50px;
+    }
+}
+@media (max-width: 1065px) {
+    body{
+        background: url(/assets/crew/background-crew-tablet.jpg);
+        background-size: cover;
+    }
+    .content{
+        flex-direction: column;
+    }
+}
+@media (max-width:537px) {
+    .text h2{
+        font-size: 1.5rem;
+    }
+
+    .text h1{
+        font-size: 2.4rem;
+    }
+
+    .text p{
+        font-size: 1.5rem;
+    }
+    .content img{
+        width: 300px;
+    }
+}
+@media (max-width: 545px) {
+    blockquote a{
+        margin-right: 5px;
+    }
+    
+}

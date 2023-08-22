@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'DM Serif Display', 'Karla';
+}
+html{
+    font-size: 62.5%;
+    overflow: hidden;
+}
+body{
+    background: url(/assets/crew/background-crew-desktop.jpg);
+    background-size: cover;
+    color: white;
+}
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: #1f242d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.header.sticky{
+    border-bottom: .1rem solid rgba(0, 0, 0, .2);
+}
+.navbar a{
+    font-size: 1.7rem;
+    color: #fff;
+    margin-left: 4rem;
+    transition: .3s;
+}
+.navbar a:hover{
+    color: aqua;
+}
+.navbar a.active{
+    color: aqua;
+}
+#menu-icons{
+    font-size: 3.6rem;
+    color: #fff;
+    display: none;
+}
+
+/* CREW SECTION DESIGNS */
+.crew h3{
+    font-size: 3rem;
+}
+blockquote a{
+    display: inline-block;
+    padding: 30px 30px;
+    border: 1px solid #000;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: hsl(256, 26%, 20%);
+    margin-right: 50px;
+    border: none;
+    transition: 1s;
+}
+blockquote a:hover{
+    background-color: aqua;
+    /* color: #fff; */
+}
+
+.content{
+    display: flex;
+}
+.text{
+    padding-top: 120px;
+}
+.text h2{
+    font-size: 3rem;
+    color: gray;
+}
+.text h1{
+    font-size: 5rem;
+}
+.text p{
+    padding-top: 50px;
+    padding-right: 20rem;
+    font-size: 1.6rem;
+    line-height: 30px;
+    color: gray;
+}
+.content img{
+    width: 500px;
+}

@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'DM Serif Display', 'Karla';
+}
+html{
+    font-size: 62.5%;
+    /* overflow-x: hidden; */
+}
+body{
+    background: url(/assets/technology/background-technology-desktop.jpg);
+    background-size: cover;
+    color: white;
+}
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: #1f242d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.header.sticky{
+    border-bottom: .1rem solid rgba(0, 0, 0, .2);
+}
+.navbar a{
+    font-size: 1.7rem;
+    color: #fff;
+    margin-left: 4rem;
+    transition: .3s;
+}
+.navbar a:hover{
+    color: aqua;
+}
+.navbar a.active{
+    color: aqua;
+}
+#menu-icons{
+    font-size: 3.6rem;
+    color: #fff;
+    display: none;
+}
+.technology h3{
+    font-size: 2.5rem;
+    padding-top: 60px;
+}
+h3 span{
+    color: gray;
+}
+
+.toggle-link{
+    border: 1px solid red;
+    width: 55px;
+    height: 60px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #1f242d;
+    border: none;
+}
+.links{
+    font-size: 3rem;
+    display: grid;
+    gap: 50px;
+    padding-top: 200px;
+    color: #1f242d;
+}
+.links a:hover{
+    background-color: #1f242d;
+    color: #fff;
+    transition: 1s;
+}
+
+.text{
+    padding-top: 170px;
+}
+.text h4{
+    font-size: 2rem;
+}
+
+.text h1{
+    font-size: 5rem;
+}
+
+.text p{
+    font-size: 1.5rem;
+    padding-right: 30%;
+    padding-top: 30px;
+}
+
+.content{
+    display: flex;
+    padding-left:300px;
+}
+.content img{
+    width: 500px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+
+
+
+/* BREAKOUTS */
+@media (max-width: 1309px) {
+    .text h4{
+        font-size: 1.5rem;
+    }
+
+    .text h1{
+        font-size: 2.5rem;
+    }
+    
+    .text p{
+        font-size: 1.3rem;
+        padding-right: 10px;
+    }
+    
+}
+
+@media (max-width: 1278px) {
+    .container{
+        flex-direction: column;
+    }
+    .links{
+        display: flex;
+        padding-top: 20px;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .text{
+        text-align: left;
+        padding-right: 250px;
+    }
+    .text h4{
+        font-size: 1.4rem;
+    }
+
+    .text h1{
+        font-size: 2rem;
+    }
+    
+    .text p{
+        font-size: 1rem;
+    }
+    .content img{
+        padding-top: 50px;
+    }
+    
+}
+
+@media (max-width: 1278px) {
+    .content{
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 746px) {
+    body{
+        background: url(/assets/technology/background-technology-mobile.jpg);
+        background-size: cover;
+    }
+}
+@media (max-width: 534px) {
+    .text{
+        text-align: left;
+        padding-right: 100px;
+    }
+}
