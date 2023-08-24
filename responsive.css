@@ -12,10 +12,11 @@
     
 }
 @media (max-width: 924px) {
-    .home {
+    body{
         background: url(/assets/home/background-home-mobile.jpg);
-        background-position: center;
         background-size: cover;
+    }
+    .home {
         flex-direction: column;
         margin-top: 50px;
 
@@ -58,6 +59,14 @@
         display: block;
         font-size: 2rem;
         margin: 3rem 0;
+    }
+    
+} 
+    
+@media (max-width: 645px) {
+    .home h3, .home h1{
+        text-align: center;
+        padding-right: 40px;
     }
     
 }
@@ -137,6 +146,7 @@
         flex-direction: column;
     }
 }
+
 @media (max-width:537px) {
     .text h2{
         font-size: 1.5rem;
@@ -153,6 +163,7 @@
         width: 300px;
     }
 }
+
 @media (max-width: 545px) {
     blockquote a{
         margin-right: 5px;
